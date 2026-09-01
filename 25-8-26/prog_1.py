@@ -1,8 +1,12 @@
-# WAP to take total minutes as input and convert it into hours and remaining minutes
+# WAP to take two inputs a and b, seap their values using a temperary variable and print updated values
 
-min = int(input("Enter Minutes : "))
+a = int(input("Enter value of 'a' : "))
+b = int(input("Enter value of 'b' : "))
 
-hrs = min // 60
-minutes = min % 60 # min - (hrs * 60)
+t = a
+a = b
+b = t
 
-print(f"{hrs} Hours and {minutes} minutes")
+# a, b = b, a 
+
+print("After swapping : ",a ,b)

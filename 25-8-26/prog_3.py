@@ -1,9 +1,13 @@
-# WAP to take an amount in rupees and calculate how many 500 and 100 notes are needed
+bal = 1000
 
-amt = int(input("Enter an Amount : "))
+bal += 500
+print("After adding 500 = ",bal)
 
-note_500 = amt // 500
-rem_amt = amt % 500
-note_100 = rem_amt // 100
+bal -= 200
+print("After subtracting 200 = ",bal)
 
-print(f"{note_500} Notes of 500 & {note_100} Notes of 100")
+bal *= 2
+print("After multiplying by 2 = ",bal)
+
+bal /= 4
+print("After dividing by 4 = ",bal)

@@ -1,14 +1,12 @@
-# WAP to take a 2-digit number as input and print the sum of its digits
+# WAP to swap tw0 numbers without using a third variable (use arithmatic opeators)
 
-n = int(input("Enter a 2-digit number : "))
+a = int(input("Enter value of 'a' : "))
+b = int(input("Enter value of 'b' : "))
 
-first = n // 10
-sec = n % 10
+a = a + b
+b = a - b
+a = a - b
 
-print(f"Sum of 2-digits numbers : {first + sec}")
+# a, b = b, a 
 
-# x = n % 10
-# num = x
-# num = n // 10
-
-# print(f"{x + num}")
+print("After swapping : ",a ,b)
