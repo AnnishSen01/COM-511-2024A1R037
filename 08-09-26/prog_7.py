@@ -13,3 +13,7 @@ if("make a lot of money" in cmt.lower() or
     print("Spam Comment !!!")
 else:
     print("Legit Comment. :)")
+
+
+
+    //1,000,000,000,000,000
